@@ -1,0 +1,59 @@
+Desktop
+Documents
+Downloads
+hello
+labtask01.txt
+Music
+oslab
+Pictures
+Public
+snap
+Task03.txt
+Templates
+testFile.txt
+Videos
+.
+├── Desktop
+│   ├── Lab1
+│   │   ├── file1.txt
+│   │   ├── file2.txt
+│   │   └── file3.txt
+│   └── Shayan
+│       ├── file.txt
+│       └── hello
+├── Documents
+├── Downloads
+│   └── SQopGx.docx
+├── hello
+│   └── hello.txt
+├── labtask01.txt
+├── Music
+├── oslab
+├── Pictures
+│   ├── Screenshot from 2023-01-25 10-27-45.png
+│   ├── Screenshot from 2023-01-25 10-35-38.png
+│   ├── Screenshot from 2023-01-25 10-38-32.png
+│   ├── Task 1.png
+│   ├── Task 2.png
+│   ├── Task 3.png
+│   ├── Task 4 part 1.png
+│   ├── Task 4 part 2.png
+│   ├── Task 4 part 3.png
+│   ├── Task 4 part 4.png
+│   ├── Task 5 part 1.png
+│   ├── Task 5 part 2.png
+│   ├── Task 6 part 1.png
+│   ├── Task 6 part 2.png
+│   └── Task 6 part 3.png
+├── Public
+├── snap
+│   └── snap-store
+│       ├── 558
+│       ├── common
+│       └── current -> 558
+├── Task03.txt
+├── Templates
+├── testFile.txt
+└── Videos
+
+18 directories, 24 files
