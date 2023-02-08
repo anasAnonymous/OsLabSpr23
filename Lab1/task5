@@ -1,0 +1,30 @@
+Script started on 2023-02-08 10:31:32+0500
+]0;adminx@adminx-VirtualBox: ~[01;32madminx@adminx-VirtualBox[00m:[01;34m~[00m$ su u1
+Password: 
+]0;u1@adminx-VirtualBox: /home/adminx[01;32mu1@adminx-VirtualBox[00m:[01;34m/home/adminx[00m$ passwd u2
+passwd: You may not view or modify password information for u2.
+]0;u1@adminx-VirtualBox: /home/adminx[01;32mu1@adminx-VirtualBox[00m:[01;34m/home/adminx[00m$ su adminx
+Password: 
+]0;adminx@adminx-VirtualBox: ~[01;32madminx@adminx-VirtualBox[00m:[01;34m~[00m$ sudo addgroup u1
+[sudo] password for adminx: 
+addgroup: The group `u1' already exists.
+]0;adminx@adminx-VirtualBox: ~[01;32madminx@adminx-VirtualBox[00m:[01;34m~[00m$ sudo addgroup u1 sudo
+Adding user `u1' to group `sudo' ...
+Adding user u1 to group sudo
+Done.
+]0;adminx@adminx-VirtualBox: ~[01;32madminx@adminx-VirtualBox[00m:[01;34m~[00m$ su u1
+Password: 
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;u1@adminx-VirtualBox: /home/adminx[01;32mu1@adminx-VirtualBox[00m:[01;34m/home/adminx[00m$ sudo passwd u2
+[sudo] password for u1: 
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+]0;u1@adminx-VirtualBox: /home/adminx[01;32mu1@adminx-VirtualBox[00m:[01;34m/home/adminx[00m$ exit
+]0;adminx@adminx-VirtualBox: ~[01;32madminx@adminx-VirtualBox[00m:[01;34m~[00m$ exit
+]0;u1@adminx-VirtualBox: /home/adminx[01;32mu1@adminx-VirtualBox[00m:[01;34m/home/adminx[00m$ exit
+]0;adminx@adminx-VirtualBox: ~[01;32madminx@adminx-VirtualBox[00m:[01;34m~[00m$ exit
+
+Script done on 2023-02-08 10:34:38+0500
