@@ -1,0 +1,13 @@
+if [[ $1 < $2 && $1 < $3 ]] ;
+then
+    echo "$1 is min"
+elif [[ $2 < $1 && $2 < $3 ]] ;
+then
+    echo "$2 is min"
+elif
+    [[ $3 < $1 && $3 < $2 ]]
+then
+    echo "$3 is min"
+else
+    echo "Two numbers are min and equal"
+ fi
