@@ -28,3 +28,6 @@ passwd: password updated successfully
 ]0;adminx@adminx-VirtualBox: ~[01;32madminx@adminx-VirtualBox[00m:[01;34m~[00m$ exit
 
 Script done on 2023-02-08 10:34:38+0500
+
+--- How did we able to change password?
+--- As we cannot change password of other user if the current user has not previliges of root user. So, we will add the user to sudo group. Thus, the user has now root previliges and can change password of any user.
