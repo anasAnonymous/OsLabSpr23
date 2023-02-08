@@ -1,0 +1,10 @@
+for i in {1..5}; do
+	fname="test0$i"
+	cd $fname
+	cd 01
+	cat test.txt >> /home/adminx/Desktop/merge.txt
+	cd ..
+	cd 02
+	cat test.txt >> /home/adminx/Desktop/merge.txt
+	cd ../../
+done
