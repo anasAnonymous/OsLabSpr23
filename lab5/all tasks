@@ -1,5 +1,5 @@
 TASK 1:
-echo "	INSTALLING APACHE2"
+echo "	INSTALLING APACHE2, MYSQL, PHP"
 sudo apt install apache2 -y
 sudo apt install mysql-server -y
 sudo apt install php libapache2-mod-php php-mysql -y
