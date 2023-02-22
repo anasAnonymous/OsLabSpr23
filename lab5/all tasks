@@ -1,0 +1,21 @@
+TASK 1:
+echo "	INSTALLING APACHE2"
+sudo apt install apache2 -y
+sudo apt install mysql-server -y
+sudo apt install php libapache2-mod-php php-mysql -y
+echo "HOGYAAAA"
+
+
+TASK 2:
+echo "Start server !!"
+sudo service apache2 start
+
+echo "Showing status !!"
+sudo service apache2 status
+
+echo "Ab hoga restart server !!"
+sudo service apache2 restart
+echo " Hogyaaaaaaaaaa!!"
+
+
+TASK 3:
