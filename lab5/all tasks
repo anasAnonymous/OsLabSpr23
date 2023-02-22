@@ -19,3 +19,9 @@ echo " Hogyaaaaaaaaaa!!"
 
 
 TASK 3:
+echo "STARTING MYSQL SERVER"
+sudo service mysql start
+
+echo " Hogyaaaaaaaaaaaaaa"
+
+
