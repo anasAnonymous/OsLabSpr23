@@ -30,3 +30,7 @@ Step 7: Connect to the Shared Directory.
 `Sudo ambpasswd –a user`    
 `Sudo nano /etc/samba/smb.conf`     
 
+# Learnings : 
+- Introduction to SAMBA.
+- Installation and SAMBA setup.
+- Features.
