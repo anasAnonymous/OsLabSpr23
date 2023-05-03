@@ -22,11 +22,11 @@ Step 6: Update the Firewall Rules.
 Step 7: Connect to the Shared Directory.
     
 
-`sudo apt install samba –y    
-sudo systemctl status smbd    
-mkdir /home/std/sharingFolder    
-chmod 777 /home/std/sharingFolder    
-sudo useradd user1    
-Sudo ambpasswd –a user    
-Sudo nano /etc/samba/smb.conf`     
+`sudo apt install samba –y`    
+`sudo systemctl status smbd`    
+`mkdir /home/std/sharingFolder`    
+`chmod 777 /home/std/sharingFolder`    
+`sudo useradd user1`    
+`Sudo ambpasswd –a user`    
+`Sudo nano /etc/samba/smb.conf`     
 
