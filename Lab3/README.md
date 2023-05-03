@@ -12,20 +12,21 @@ Samba is open source software that implements the Server Message Block (SMB) pro
 
 # SETUP
 
-sudo apt install samba –y    
+
+Step 1: Install Samba.
+Step 2: Create a Shared Directory.
+Step 3: Configure Samba's Global Options. Browsing/Identification. Networking. Debugging. ...
+Step 4: Set Up a User Account.
+Step 5: Configure Samba Share Directory Settings.
+Step 6: Update the Firewall Rules.
+Step 7: Connect to the Shared Directory.
+    
+
+`sudo apt install samba –y    
 sudo systemctl status smbd    
-mkdir /home/ayesha/sharingFolder    
-chmod 777 /home/ayesha/sharingFolder    
+mkdir /home/std/sharingFolder    
+chmod 777 /home/std/sharingFolder    
 sudo useradd user1    
 Sudo ambpasswd –a user    
-Sudo nano /etc/samba/smb.conf    
+Sudo nano /etc/samba/smb.conf`     
 
-
-    Step 1: Install Samba.
-    Step 2: Create a Shared Directory.
-    Step 3: Configure Samba's Global Options. Browsing/Identification. Networking. Debugging. ...
-    Step 4: Set Up a User Account.
-    Step 5: Configure Samba Share Directory Settings.
-    Step 6: Update the Firewall Rules.
-    Step 7: Connect to the Shared Directory.
-    
